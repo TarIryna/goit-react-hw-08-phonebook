@@ -10,7 +10,7 @@ export default function UserMenu() {
     <div className={s.container}>
       {/* <img src={avatar} alt="" width="32" className={s.avatar} /> */}
       <span className={s.name}>Добро пожаловать, {name}</span>
-      <button type="button" onClick={() => dispatch(authOperations.logOut())}>
+      <button className={s.button} type="button" onClick={() => dispatch(authOperations.logOut())}>
         Выйти
       </button>
     </div>
