@@ -1,11 +1,11 @@
 import React from 'react';
 import Phonebook from '../components/Phonebook';
-import Form from '../components/Form';
+import NewContact from '../components/NewContact';
 import FilterInput from '../components/FilterInput';
 
 const HomeView = () => (
   <>
-    <Form />
+    <NewContact />
     <FilterInput />
     <Phonebook />
   </>

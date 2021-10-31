@@ -11,7 +11,7 @@ const FilterInput = () => {
   return (
     <div className={s.filter}>
       <label className={s.label}>
-        Find contacts by name
+        Фильтр по имени
         <input
           className={s.input}
           type="text"

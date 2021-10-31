@@ -4,7 +4,7 @@ import { useSelector, useDispatch } from 'react-redux';
 import { contactsOperations, contactsSelectors } from '../../redux/contacts';
 import Notiflix from 'notiflix';
 
-const Form = ({ onSubmit, items }) => {
+const Form = () => {
   const [name, setName] = useState('');
   const [number, setNumber] = useState('');
   const allContacts = useSelector(contactsSelectors.getAllContacts);
